@@ -1,9 +1,21 @@
+html {
+    
+    width: 100vh;
+}
+
 header {
     text-align: center;
 }
 
+
 main {
     height: 100vh;
+    
+
+}
+
+img {
+    float: left;
 }
 
 footer {
