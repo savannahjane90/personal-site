@@ -2,7 +2,16 @@ html {
     text-size-adjust: none;
     font-size: 200%;
     width: 98.8vw;
+    background-color: rgb(255 244 234);
+    color: rgb(130 0 85);
 }
+
+@media (max-width: 800px) {
+    html {
+        font-size: 250%;
+}
+}
+
 
 header {
     text-align: center;
