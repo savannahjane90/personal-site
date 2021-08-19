@@ -1,4 +1,6 @@
 html {
+    display: flex;
+    flex-direction: column;
     text-size-adjust: none;
     font-size: 200%;
     width: 98.8vw;
@@ -15,11 +17,7 @@ nav a{
     border: solid;
 }
 
-main {
-    display: flex;
-    height: 100vh;
 
-}
 
 img {
     float: left;
