@@ -6,9 +6,9 @@ html {
     color: rgb(130 0 85);
 }
 
-@media (max-width: 800px) {
-    html {
-        font-size: 250%;
+@media (max-width: 780px) {
+    img {
+        size: 5%;
 }
 }
 
