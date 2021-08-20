@@ -1,4 +1,5 @@
 html {
+    text-size-adjust: none;
     box-sizing: border-box;
     min-height: 100vh;
     width: 98.8vw;
@@ -6,6 +7,7 @@ html {
     color: rgb(130 0 85);
     font-size: 400%;
 }
+
 
 header {
     text-align: center;
