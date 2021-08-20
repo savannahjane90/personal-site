@@ -1,12 +1,11 @@
 html {
-    display: flex;
-    flex-direction: column;
-    text-size-adjust: none;
-    font-size: 200%;
+    box-sizing: border-box;
     width: 98.8vw;
     background-color: rgb(255 244 234);
     color: rgb(130 0 85);
 }
+
+
 
 header {
     text-align: center;
@@ -17,11 +16,14 @@ nav a{
     border: solid;
 }
 
-
+main {
+    min-height: 100vh;
+}
 
 img {
     float: left;
 }
+
 
 footer {
     text-align: center;
