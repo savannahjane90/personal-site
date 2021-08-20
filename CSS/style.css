@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
     min-height: 100vh;
     background-color: rgb(255 244 234);
-    color: rgb(130 0 85);
+    color: rgb(130 0 115);
 }
 
 body {
@@ -10,16 +10,47 @@ body {
 }
 
 header {
-    text-align: center;
-     
+    text-align: center; 
 }
 
-nav a {
+h1 {
+    font-family: 'Leckerli One', cursive;
+}
+
+
+nav table {
+    display: inline-block;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+nav table td {
     border: solid;
+    border-top: none;
+    border-bottom: none;
+    border-spacing: 0;
+    border-collapse: collapse; 
+    border-color:rgb(232 211 201);
+}
+
+nav td a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Acme', sans-serif;
+    color:rgb(145 64 54);
 }
 
 main {
     min-height: 75.9vh;
+    font-family: 'Acme', sans-serif;
+}
+
+h2 {
+    font-family: 'Acme', sans-serif;
 }
 
 img {
@@ -29,4 +60,5 @@ img {
 
 footer {
     text-align: center;
+    font-family: 'Acme', sans-serif;
 }
