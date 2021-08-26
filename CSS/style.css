@@ -101,12 +101,17 @@ footer {
         font-size: 2em;
     }
 
+    nav td {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     nav a {
-        font-size: 0.5em;
+        font-size: 0.3em;
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     main {
@@ -116,11 +121,11 @@ footer {
     img {
         height: 160px;
         width: auto;
-        padding: 10px;
+        padding: 5px;
     }
 
     .main_text {
-        font-size: 0.3em;
+        font-size: 0.1em;
     }
 
 }
