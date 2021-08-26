@@ -79,12 +79,6 @@ img {
     padding: 0 20px 20px 0;
 }
 
-@media (max-width: 700px){
-    img {
-        height: 180px;
-        width: auto;
-    }
-}
 
 .main_text {
     font-size: 1.7em;
@@ -95,4 +89,12 @@ img {
 footer {
     text-align: center;
     font-family: 'Acme', sans-serif;
+}
+
+
+@media (max-width: 700px){
+    img {
+        height: 180px;
+        width: auto;
+    }
 }
