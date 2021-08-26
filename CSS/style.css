@@ -32,6 +32,12 @@ nav table td {
     border-spacing: 0;
     border-collapse: collapse; 
     border-color:rgb(232 211 201);
+    
+}
+
+td:hover {
+    color: rgb(0 0 0);
+    background-color: rgb(232 211 201);
 }
 
 nav td a {
@@ -42,6 +48,10 @@ nav td a {
     margin-bottom: 0;
     font-family: 'Acme', sans-serif;
     color:rgb(145 64 54);
+}
+
+a:hover {
+    color: rgb(100 19 9);
 }
 
 main {
@@ -55,7 +65,12 @@ h2 {
 
 img {
     float: left;
+    @media (max-width: 700px) {
+        size: 50% auto;
+    }
 }
+
+
 
 
 footer {
