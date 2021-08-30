@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    min-height: 100vh;
     background-color: rgb(255 244 234);
     color: rgb(130 0 115);
 }
@@ -93,20 +92,6 @@ footer {
 }
 
 
-@media (min-width: 501px), (max-width: 1000px) {
-    main {
-        margin-top: 50px;
-        margin-right: 30px;
-        margin-left: 30px;
-
-    }
-
-    img {
-        height: 250px;
-        width: auto;
-    }
-}
-
 @media (max-width: 500px){
     
     body {
@@ -139,7 +124,7 @@ footer {
     }
 
     main {
-        min-height: 73vh;
+        min-height: 76vh;
         margin: 40px 20px 10px 15px;
     }
 
