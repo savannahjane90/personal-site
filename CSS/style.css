@@ -105,28 +105,28 @@ footer {
     nav td {
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 0.9em;
+        font-size: 0.75em;
     }
 
 
     h2 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     main {
         min-height: 70vh;
-        margin: 50px 30px 10px 20px;
+        margin: 50px 20px 10px 15px;
     }
 
     img {
-        height: 200px;
+        height: 170px;
         width: auto;
         padding: 10px;
     }
 
 
     .main_text {
-        font-size: 1.2em;
+        font-size: 1em;
         margin-top: 0;
     }
 
