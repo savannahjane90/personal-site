@@ -60,6 +60,7 @@ nav td a {
 
 a:hover {
     color: rgb(100 19 9);
+    background-color: 232 211 201;
 }
 
 main {
