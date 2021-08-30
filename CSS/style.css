@@ -100,12 +100,12 @@ footer {
     
     header {
         padding-bottom: 5px;
-        margin-top: 20px;
+        margin-top: 13px;
     }
     
     h1 {
         font-size: 2.2em;
-        margin-top: 20px;
+        margin-top: 13px;
         margin-bottom: 5px;
     }
 
@@ -139,4 +139,7 @@ footer {
         margin-top: 0;
     }
 
+    h6 {
+        margin: 5px;
+    }
 }
