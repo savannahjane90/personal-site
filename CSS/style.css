@@ -94,10 +94,12 @@ footer {
 
 
 @media (max-width: 700px){
-    html {
-        min-height: 95vh;
-    }
     
+    body {
+        width: 95.8vw;
+    }
+
+
     header {
         padding-bottom: 5px;
         margin-top: 13px;
