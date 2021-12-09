@@ -62,6 +62,10 @@ a:hover {
     background-color: 232 211 201;
 }
 
+a:active {
+    color: rgb(170 40 155);
+}
+
 main {
     min-height: 75.9vh;
     font-family: 'Acme', sans-serif;
