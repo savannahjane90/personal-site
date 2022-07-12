@@ -23,7 +23,6 @@ h1 {
     margin-bottom: 15px;
 }
 
-
 nav table {
     display: inline-block;
     border-spacing: 0;
@@ -48,13 +47,17 @@ td:hover {
 
 nav td a {
     text-decoration: none;
-    margin-right: 10px;
-    margin-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Acme', sans-serif;
     font-size: 1.5em;
     color:rgb(145 64 54);
+}
+
+table td a div {
+    width: 120px;
+    /*padding-right: 20px;
+    padding-left: 20px;*/
 }
 
 a:hover {
